@@ -1,0 +1,40 @@
+        body {
+            background-color: #bfcfff;
+        }
+
+        /* Change to overall list 
+           list-style-type: none removes bullet points
+           margin: no space on the sides
+           padding: kind of the same thing
+           overflow: clips anything that is too big
+           background-color: change background*/
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #0000b3;
+        }
+
+        /* All list elements to the left */
+        li {
+            float: left;
+        }
+
+        /* display: block turns links into a block
+            color: changes text color
+            text-align center
+            padding between list items
+            text_decoration gets rid of underline*/
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #001f7d;
+        }
